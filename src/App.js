@@ -8,6 +8,7 @@
 
 import React,{Component} from 'react';
 import {Login} from './Components'
+import { Dashboard } from './Components/dashboard';
 import {
   SafeAreaView,
   StyleSheet,
@@ -19,6 +20,7 @@ import {
   Button,
   FlatList
 } from 'react-native';
+
 
 
 class App extends Component{
@@ -35,6 +37,7 @@ class App extends Component{
 
         <Text> Mumma's Moppet </Text>
         <Login/>
+        <Dashboard/>
         
       </View>
 
